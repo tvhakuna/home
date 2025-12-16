@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iptvhakuna.shop/sitemap.xml
