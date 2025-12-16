@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Rank Math SEO Optimized Meta Tags -->
+    <title>Hakuna IPTV Filme - Schaue 200.000+ Filme & VOD | 8K Ultra HD</title>
+    <meta name="description"
+        content="Tauche ein in die weltweit größte VOD-Bibliothek auf Hakuna IPTV. Streame über 200.000 Filme in 4K & 8K Qualität. Von den neuesten Blockbustern bis zu Filmklassikern. Sofortiger Zugriff.">
+    <meta name="keywords"
+        content="Hakuna IPTV Filme, iptv hakuna, VOD Bibliothek, online filme schauen, 4k streaming filme, neueste blockbuster, filmklassiker">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://iptvhakuna.shop/de/movies.html">
+    <link rel="alternate" hreflang="en" href="https://iptvhakuna.shop/movies.html" />
+    <link rel="alternate" hreflang="nl" href="https://iptvhakuna.shop/nl/movies.html" />
+    <link rel="alternate" hreflang="de" href="https://iptvhakuna.shop/de/movies.html" />
+    <link rel="alternate" hreflang="x-default" href="https://iptvhakuna.shop/movies.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iptvhakuna.shop/de/movies.html">
+    <meta property="og:title" content="Hakuna IPTV Filme - Schaue 200.000+ Filme & VOD">
+    <meta property="og:description" content="Streame über 200.000 Filme auf Hakuna IPTV in 4K & 8K Qualität.">
+    <meta property="og:image" content="../assets/movie.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+
+    <!-- Internal CSS (Shared Design System) -->
+    <style>
+        :root {
+            /* Color System */
+            --primary: #E50914;
+            --primary-dark: #b81d24;
+            --bg-body: #000000;
+            --bg-surface: #141414;
+            --bg-surface-2: #181818;
+            --text-main: #ffffff;
+            --text-muted: #b3b3b3;
+            --border: #333333;
+
+            /* Layout */
+            --container-width: 1200px;
+            --header-height: 70px;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Utilities */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Header */
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: var(--header-height);
+            background: rgba(20, 20, 20, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        /* Hero Page Specific */
+        .page-hero {
+            padding-top: calc(var(--header-height) + 4rem);
+            padding-bottom: 4rem;
+            background: radial-gradient(circle at top center, #1a0505 0%, #000000 70%);
+            text-align: center;
+        }
+
+        .page-hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .page-hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        /* Content Layout */
+        .content-section {
+            padding: 4rem 0;
+        }
+
+        .split-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .split-image {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .split-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        .split-image:hover img {
+            transform: scale(1.03);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: var(--bg-surface-2);
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+        }
+
+        .feature-card h3 {
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        /* Reveal Animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 4rem 0;
+            margin-top: 4rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        /* Mobile */
+        @media (min-width: 900px) {
+            .split-row {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Watch 200,000+ Movies & VOD",
+    "description": "Stream the world's largest movie library in 4K & 8K.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hakuna IPTV"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                <img src="../assets/logo.svg" alt="Hakuna IPTV" style="height: 32px; width: auto;">
+            </a>
+            <a href="index.html" style="font-weight: 600; color: var(--text-muted);">Zurück zur Startseite</a>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero reveal">
+        <div class="container">
+            <h1>Die ultimative VOD Bibliothek <br><span class="text-primary">200.000+ Filme</span></h1>
+            <p>Dein eigenes privates Kino. Streame die größten Blockbuster, Indie-Perlen und internationale Hits in
+                kristallklarer 4K
+                und 8K Qualität.</p>
+            <a href="index.html#pricing" class="btn-primary"
+                style="padding: 1rem 2rem; font-size: 1.1rem; border-radius: 50px;">Jetzt Zugang erhalten</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="content-section">
+        <div class="container">
+
+            <!-- Featured Image & Intro -->
+            <div class="split-row reveal">
+                <div class="split-image">
+                    <!-- Using the requested category image here -->
+                    <img src="../assets/movie.webp" alt="Hakuna IPTV VOD Film Bibliothek Collage" loading="eager">
+                </div>
+                <div class="split-content">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Kinoqualität zu Hause streamen</h2>
+                    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 2rem;">
+                        Verwandle dein Wohnzimmer in ein Privatkino. Erhalte sofortigen Zugriff auf die neuesten
+                        Hollywood-Blockbuster, zeitlose Klassiker und exklusive Premieren. Unsere riesige Bibliothek
+                        wird wöchentlich aktualisiert,
+                        damit du immer etwas Großartiges in atemberaubendem 4K HDR sehen kannst.
+                    </p>
+                    <a href="index.html#pricing" class="btn-primary">Jetzt ansehen</a>
+                    <ul style="color: var(--text-muted); display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li>✨ <strong>Tägliche Updates:</strong> Jeden Tag neue Veröffentlichungen hinzugefügt.</li>
+                        <li>✨ <strong>IMDb Integration:</strong> Bewertungen und Trailer integriert.</li>
+                        <li>✨ <strong>4K HDR:</strong> Kristallklares Bild für das ultimative Erlebnis.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="reveal">
+                <h2 class="text-center" style="margin-bottom: 2rem;">Alles, was du sehen willst</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Neuerscheinungen</h3>
+                        <p style="color: var(--text-muted);">Frisch aus dem Kino. Schaue die größten Hits aus Hollywood
+                            und darüber hinaus, sobald sie erscheinen.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>4K & 8K Ultra HD</h3>
+                        <p style="color: var(--text-muted);">Erlebe Bilder so scharf, als würdest du durch ein Fenster
+                            schauen. Dolby Vision & HDR10+ Unterstützung.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Globales Kino</h3>
+                        <p style="color: var(--text-muted);">Entdecke eine riesige Sammlung internationaler Filme aus
+                            Europa, Asien,
+                            Lateinamerika und Bollywood.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Genres List -->
+            <div class="reveal" style="margin-top: 4rem; text-align: center;">
+                <h2 style="margin-bottom: 1.5rem;">Riesige Genre-Auswahl</h2>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Action</span>
+                    <span
+                        style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Komödie</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Drama</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Horror</span>
+                    <span style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Sci-Fi</span>
+                    <span
+                        style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Romantik</span>
+                    <span
+                        style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Thriller</span>
+                    <span
+                        style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Animation</span>
+                    <span
+                        style="background: #222; padding: 0.5rem 1rem; border-radius: 4px; color: #fff;">Dokumentation</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hakuna IPTV. Alle Rechte vorbehalten.</p>
+            <p style="font-size: 0.9rem; margin-top: 1rem;">
+                <a href="index.html">Startseite</a> | <a href="tv-shows.html">Serien</a> | <a
+                    href="index.html#pricing">Preise</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Animation Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("active");
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+        });
+    </script>
+
+</body>
+
+</html>
